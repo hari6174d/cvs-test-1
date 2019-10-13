@@ -1,0 +1,19 @@
+div.cvs-camera-container {
+    z-index: -1;
+}
+
+div.cvs-content-next-button {
+    position: absolute;
+    top: 738px;
+    left: 113px;
+    z-index: 999;
+}
+
+p.cvs-content-overlay {
+    position: absolute;
+    top: 628px;
+    left: 13px;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}

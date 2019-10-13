@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+div.cvs-align-center {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+div.cvs-logo {
+    height: 55px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000001F;
+    opacity: 1;
+}
+
+div.cvs-logo img {
+    padding: 20px;
+}
+.btn-red {
+    width: 150px;
+    height: 44px;
+    background: #CC0000 0% 0% no-repeat padding-box;
+    border: #CC0000 1px solid;
+    opacity: 1;
+    font: 20px/24px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+
+ul.cvs-steps {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+}
+
+ul.cvs-steps li {
+    display: inline;
+    text-align: center;
+    font: Bold 16px/19px Helvetica;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding: 0 1.5rem 0 1rem;
+}
+
+/**
+ * Dot styles
+ */
+
+div.cvs-steps-container {
+    background: #f3f3f3;
+}
+
+.cvs-dots {
+    padding: 20px;
+    margin: 0;
+}
+
+.cvs-step {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 1em;
+    background: #CC0000;
+    margin: 0 2em;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.cvs-step::before {
+    content: '';
+    position: absolute;
+    top: .9em;
+    left: -4.2em;
+    width: 5em;
+    height: .2em;
+    background: #CC0000;
+    /* z-index: -1; */
+}
+
+.cvs-step:first-child::before {
+    display: none;
+}
+
+.active {
+    background: #CC0000;
+}
+
+.active~.cvs-step {
+    background: #707070;
+}
+
+.active~.cvs-step::before {
+    background: #707070;
+}
+
+/**
+ * Dot style ends.
+ */

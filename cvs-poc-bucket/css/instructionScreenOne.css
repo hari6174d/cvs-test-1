@@ -1,0 +1,20 @@
+div.cvs-content-container p.cvs-content-heading {
+    text-align: left;
+    padding: 0 42px 0 20px;
+}
+
+div.cvs-content-point {
+    text-align: left;
+    font: 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+div.cvs-content-point img {
+    vertical-align: middle;
+}
+
+div.cvs-content-point ul li {
+    padding: 0 20px;
+}

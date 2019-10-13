@@ -1,0 +1,26 @@
+
+
+/**
+ * Content styles begins
+ */
+div.cvs-content-container p.cvs-content-heading {
+    text-align: center;
+    font: Bold 20px/24px Helvetica;
+    letter-spacing: 0;
+    color: #CC0000;
+    opacity: 1;
+    margin-top: 32px;
+}
+
+ul.cvs-content-point li {
+    text-align: left;
+    font: 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+
+div.cvs-content-next-button {
+    width: 100%;
+}

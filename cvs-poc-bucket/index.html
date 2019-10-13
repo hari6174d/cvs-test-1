@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="./js/lib/aframe-extras.js"></script>
+    <script src="./js/lib/aframe-text-geometry-component.min.js"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CVS-Pharmacy</title>
+</head>
+
+<body>
+    <div class="cvs-align-center">
+        <div class="col cvs-logo">
+            <img src="assets/logo.png" />
+        </div>
+
+        <div class="cvs-steps-container">
+
+            <ul class="cvs-steps">
+                <li><a href="./index.html">Prime</a></li>
+                <li><a href="./pages/camera.html">Inhale/Exhale</a></li>
+                <li>Tips</li>
+            </ul>
+            <ul class="cvs-dots">
+                <li class="cvs-step active"></li>
+                <li class="cvs-step"></li>
+                <li class="cvs-step"></li>
+            </ul>
+        </div>
+
+        <div class="cvs-content-container">
+            <p class="cvs-content-heading">
+                When should I prime my inhaler?
+            </p>
+
+            <ul class="cvs-content-point">
+                <li>1st time use</li>
+                <li>If inhaler has not been used in 7 days or more.</li>
+                <li>If inhaler has been dropped</li>
+            </ul>
+
+            <dv>
+                <img src="assets/inhaler.png" class="cvs-content-image">
+            </dv>
+            <div class="cvs-content-next-button">
+                <input type="button" class="btn-red" onclick="location.href='./pages/camera.html';"
+                    value="Next"></input>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
